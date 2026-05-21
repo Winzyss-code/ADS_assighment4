@@ -2,8 +2,7 @@ import java.util.*;
 
 public abstract class Search<V> {
     protected final Vertex<V> source;
-    protected final Map<Vertex<V>, Vertex<V>> edgeTo; // Keeps track of paths
-
+    protected final Map<Vertex<V>, Vertex<V>> edgeTo; 
     public Search(Vertex<V> source) {
         this.source = source;
         this.edgeTo = new HashMap<>();

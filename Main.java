@@ -1,9 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        // Instantiate an undirected graph
         WeightedGraph<String> graph = new WeightedGraph<>(true);
 
-        // Populate mock routing map
         graph.addEdge("Almaty", "Astana", 1200.0);
         graph.addEdge("Almaty", "Shymkent", 700.0);
         graph.addEdge("Shymkent", "Astana", 1400.0);
